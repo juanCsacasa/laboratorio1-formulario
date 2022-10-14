@@ -1,0 +1,153 @@
+:root {
+  --color_nav: #FFC297;
+  --color_button: #FF7008;
+  --color_second_button: white;
+  --color_transparent: #858585;
+  --color_sub: #1C1C1C;
+  --primary_font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --title_size: 45px;
+  --second_title: 32px;
+  --form_size: 26px;
+  --options_button: 28px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary_font);
+  font-weight: 600;
+}
+
+form {
+  margin: 52px;
+}
+
+h1 {
+  font-size: var(--title_size);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  background-color: var(--color_nav);
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav li img {
+  margin: 6px auto;
+  padding: 20px;
+}
+
+.logo {
+  margin: 20px auto;
+}
+
+.settings {
+  margin: 182px 6px 0;
+  padding: 10px;
+}
+
+.options {
+  width: 20%;
+  border-right: #161616 2px solid;
+}
+
+.options ul,li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 4px 16px;
+}
+
+.options img {
+  padding: 20px;
+}
+
+.arrow {
+  font-size: 32px;
+}
+
+.black {
+  color: var(--color_sub);
+  font-size: var(--options_button);
+}
+
+.transparent {
+  font-size: var(--options_button);
+  color: var(--color_transparent);
+}
+
+.content_main {
+  width: 60%;
+  font-size: var(--form_size);
+}
+
+.finaly {
+  width: 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  margin: 52px;
+}
+
+.littlebox {
+  height: 30px;
+  width: 380px;
+}
+
+.bigbox {
+  height: 30px;
+  width: 800px;
+}
+
+.butt {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.butt1 {
+  color: var(--color_button);
+  background-color: var(--color_second_button);
+  width: 180px;
+  height: 55px;
+  border: 2px solid var(--color_button);
+  font-size: var(--options_button);
+}
+
+.butt2 {
+  background-color: var(--color_button);
+  color: var(--color_second_button);
+  width: 180px;
+  height: 55px;
+  border: 2px solid var(--color_button);
+  font-size: var(--options_button);
+}
+
+.double {
+  display: flex;
+  margin: 20px 0;
+}
+
+.triple {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
